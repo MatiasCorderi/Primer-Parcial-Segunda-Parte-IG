@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -108,10 +109,7 @@ main {
     padding: 2% 5%;
     border: 0.5rem double rgb(97, 97, 97);
     background-color: white;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    margin-left: 10%;
+    margin: 2% 10%;
     border-radius: 1rem;
 }
 
@@ -119,10 +117,7 @@ footer {
     padding: 1%;
     border: 0.5rem groove rgb(177, 63, 91);
     background-color: white;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    margin-left: 10%;
+    margin: 2% 10%;
     border-radius: 3rem;
 }
 
@@ -146,26 +141,25 @@ body {
     background-color: #000;
     margin-left: auto;
     margin-right: auto;
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
     height: auto;
     border-radius: 3rem;
-
 }
 
 .imagenvertical {
-    text-align: center;
     display: block;
     border: 0.5rem groove rgb(99, 0, 138);
     background-color: #000;
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
+    width: 100%;
+    max-width: 20rem;
     height: auto;
     border-radius: 3rem;
 }
 
 .video {
-    text-align: center;
     display: block;
     border: 0.5rem groove rgb(99, 0, 138);
     margin-left: auto;
@@ -174,8 +168,10 @@ body {
 }
 /*--------------------------------*/
 
-/*---Contenedor---*/
+/*-----CONTENEDOR------*/
 .contenedor {
     width: 100%;
     max-width: 1366px;
+    margin: auto;
 }
+/*---------------------*/

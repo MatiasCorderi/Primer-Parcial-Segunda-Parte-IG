@@ -1,2 +1,5 @@
 # Primer-Parcial-Segunda-Parte-IG
-Segunda parte del primer parcial de Informática General
+Matías Djibilian Corderí
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
+

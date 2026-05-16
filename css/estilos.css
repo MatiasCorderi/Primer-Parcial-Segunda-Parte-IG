@@ -1,23 +1,93 @@
-/*---Fuente de títulos---*/
+/*---TEXTOS---*/
 
 main .titulo {
     font-family: "Arvo", serif;
     font-style: normal;
 }
 
-/*---Imágenes---*/
+.titulo, p#cita, .pie {
+    text-align: center;
+    margin: 1rem;
+}
+
+p {
+    text-align: justify;
+    margin: 1rem;
+}
+
+main {
+    background-color: white;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    padding: 2% 5%;
+    border-radius: 1rem;
+    border: 0.5rem double rgb(97, 97, 97);
+}
+
+footer {
+    background-color: white;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    padding: 1%;
+    border: 0.5rem groove rgb(177, 63, 91);
+    border-radius: 3rem;
+}
+
+
+.linea {
+    color: #00365a;
+    margin: 2rem;
+}
+
+/*---Material multimedial---*/
 body {
     background-image: url("../img/fondo.png");
     background-repeat: repeat;
 }
 
-.imagen {
+.imagenhorizontal {
     width: 40rem;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 3rem;
+    border: 0.5rem groove rgb(99, 0, 138)
+}
+
+.imagenvertical{
+    width: 20rem;
+    text-align: center;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
+    border: 0.5rem groove rgb(99, 0, 138)
+}
+
+.imagenvertical {
+    width: 20rem;
+    text-align: center;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
+    border: 0.5rem groove rgb(99, 0, 138)
+}
+
+.video {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
+    border: 0.5rem groove rgb(99, 0, 138)
 }
 
 /*---Contenedor---*/
@@ -27,19 +97,7 @@ body {
 }
 
 /*---Borde---*/
-header {
-    border-radius: 16px;
-}
 
-.titulo, p#cita {
-    text-align: center;
-    margin: 1rem;
-}
-
-p {
-    text-align: justify;
-    margin: 1rem;
-}
 
 
 /*---Barra de navegación*---*/
@@ -50,10 +108,11 @@ p {
 }
 
 nav {
-    background-color: #2e0058;
+    background-color: #920c1e;
     border-radius: 1rem;
-    box-shadow: 0 0 1rem 0.5rem #005d9b;
+    box-shadow: 0 0 1rem 0 #0a0101;
     margin: 0.5rem;
+    border: 0.2rem inset rgb(255, 222, 222);
 }
 
 nav ul {
@@ -70,38 +129,33 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #a00000;
     padding: 0.5rem;
     font-size: 1rem;
+    border: 0.2rem solid rgb(41, 0, 0);
     border-radius: 0.5rem;
 }
 
 nav a:link {
+    transition: 200ms;
 	background-color:  #a00000;
 	color: #ffffff;
+    border: 0.2rem solid rgb(41, 0, 0);
 }
 nav a:visited {
-	background-color: #ff9191;
+    transition: 200ms;
+	background-color: #ff7272;
 	color: #000;
+    border: 0.2rem solid rgb(41, 0, 0);
 }
 nav a:hover {
+    transition: 200ms;
 	background-color: #ffffff;
 	color: #a00000;
+    border: 0.2rem solid rgb(0, 0, 0);
 }
 nav a:active {
-	background-color: #00365a;
+    transition: 100ms;
+	background-color: #000000;
 	color: #ffffff;
+    border: 0.2rem solid rgb(255, 255, 255);
 }
-
-/*Posición de textos*/
-
-main {
-    background-color: white;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    margin-left: 10%;
-    padding: 2% 5%;
-    border-radius: 1rem;
-}
-
